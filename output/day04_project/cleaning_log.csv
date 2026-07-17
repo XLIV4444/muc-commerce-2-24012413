@@ -1,0 +1,13 @@
+﻿处理步骤,处理规则,处理前行数,处理后行数,影响记录数
+删除完全重复记录,移除全行完全一致重复行,5630,5630,0
+中位数填充缺失-Tenure,总体中位数填充，不分组,5630,5630,264
+中位数填充缺失-WarehouseToHome,总体中位数填充，不分组,5630,5630,251
+中位数填充缺失-HourSpendOnApp,总体中位数填充，不分组,5630,5630,255
+中位数填充缺失-OrderAmountHikeFromlastYear,总体中位数填充，不分组,5630,5630,265
+中位数填充缺失-CouponUsed,总体中位数填充，不分组,5630,5630,256
+中位数填充缺失-OrderCount,总体中位数填充，不分组,5630,5630,258
+中位数填充缺失-DaySinceLastOrder,总体中位数填充，不分组,5630,5630,307
+类别标准化-PreferredLoginDevice:Phone→Mobile Phone,同义业务文本统一标签,5630,5630,1231
+类别标准化-PreferredPaymentMode:COD→Cash on Delivery,同义业务文本统一标签,5630,5630,365
+类别标准化-PreferredPaymentMode:CC→Credit Card,同义业务文本统一标签,5630,5630,0
+类别标准化-PreferedOrderCat:Mobile→Mobile Phone,同义业务文本统一标签,5630,5630,809
