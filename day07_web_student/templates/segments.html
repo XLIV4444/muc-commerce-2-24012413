@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block title %}生命周期分析 | 电商用户分析系统{% endblock %}
+{% block content %}
+<section class="hero">
+  <div>
+    <p class="eyebrow">LIFECYCLE ANALYSIS</p>
+    <h1>用户生命周期详情</h1>
+    <p class="lead">按用户注册时长划分阶段，对比各阶段用户规模与流失风险。</p>
+  </div>
+</section>
+
+<section class="panel">
+  <div class="panel-heading">
+    <div><p class="eyebrow">OVERVIEW</p><h2>各生命周期阶段数据</h2></div>
+  </div>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>生命周期阶段</th>
+          <th>用户数</th>
+          <th>流失人数</th>
+          <th>流失率</th>
+          <th>平均订单数</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for row in segment_rows %}
+        <tr>
+          <td>{{ row['TenureGroup'] }}</td>
+          <td>{{ row['用户数'] }}</td>
+          <td>{{ row['流失人数'] }}</td>
+          <td>{{ row['流失率'] }}</td>
+          <td>{{ row['平均订单数'] }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<aside class="insight"><strong>数据观察：</strong>{{ insight }}</aside>
+{% endblock %}

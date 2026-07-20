@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block title %}登录 | 电商用户分析系统{% endblock %}
+{% block content %}
+<section class="login-panel">
+  <div>
+    <p class="eyebrow">DAY 07 · WEB应用实践</p>
+    <h1>让分析成果真正被看见</h1>
+    <p class="lead">登录后查看关键指标、用户流失图表和数据问答。</p>
+  </div>
+  <form class="login-card" method="post">
+    <h2>系统登录</h2>
+    <label>用户名<input name="username" autocomplete="username" required></label>
+    <label>密码<input type="password" name="password" autocomplete="current-password" required></label>
+    <button type="submit">登录系统</button>
+    <p class="hint">演示学生账号：student　密码：day07</p>
+    <p class="hint">演示教师账号：teacher　密码：day07</p>
+  </form>
+</section>
+{% endblock %}

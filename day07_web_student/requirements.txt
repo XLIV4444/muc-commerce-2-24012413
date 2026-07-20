@@ -1,0 +1,7 @@
+Flask>=3.0,<4.0
+pandas>=2.0,<3.0
+# 绘图动态图表
+matplotlib==3.8.2
+# 大模型拓展A可选（不需要可删除下面两行）
+python-dotenv==1.0.0
+openai==1.12.0
