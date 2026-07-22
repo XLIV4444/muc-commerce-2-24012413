@@ -1,0 +1,3 @@
+﻿split,rows,churn_count,churn_rate
+train,4504,758,0.16829484902309058
+test,1126,190,0.16873889875666073

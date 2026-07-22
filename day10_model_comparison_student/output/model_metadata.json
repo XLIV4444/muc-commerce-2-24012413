@@ -1,0 +1,27 @@
+{
+  "selected_model": "random_forest",
+  "random_state": 42,
+  "test_rows": 1126,
+  "feature_columns": [
+    "Tenure",
+    "PreferredLoginDevice",
+    "CityTier",
+    "WarehouseToHome",
+    "PreferredPaymentMode",
+    "Gender",
+    "HourSpendOnApp",
+    "NumberOfDeviceRegistered",
+    "PreferedOrderCat",
+    "SatisfactionScore",
+    "MaritalStatus",
+    "NumberOfAddress",
+    "Complain",
+    "OrderAmountHikeFromlastYear",
+    "CouponUsed",
+    "OrderCount",
+    "DaySinceLastOrder",
+    "CashbackAmount",
+    "TenureGroup",
+    "IsMobileLogin"
+  ]
+}

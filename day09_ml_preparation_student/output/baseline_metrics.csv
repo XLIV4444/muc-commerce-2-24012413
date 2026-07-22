@@ -1,0 +1,4 @@
+﻿metric,value
+accuracy,0.8312611012433393
+churn_recall,0.0
+predicted_churn_count,0.0
